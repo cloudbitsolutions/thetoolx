@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  server:
+    image: cloudbitsolutions/containers:toolx_test_thetoolx_v1.0.0
+    container_name: toolx-server
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    restart: unless-stopped

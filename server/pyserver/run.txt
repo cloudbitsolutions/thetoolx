@@ -1,0 +1,9 @@
+https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc?pli=1
+
+Download cookie for youtube.com and update in youtube.com_cookies.txt
+
+sudo apt update && sudo apt install ffmpeg
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirement.txt
+uvicorn main:app --reload --host 0.0.0.0 --port 8000

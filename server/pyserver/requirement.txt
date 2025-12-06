@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+yt-dlp
+pdf2docx
+python-multipart
+rembg[cli]
+requests
